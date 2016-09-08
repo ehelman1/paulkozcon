@@ -21,27 +21,47 @@ get '/contact' do
 
 end
 
-get '/portfolio-1-col' do
+get '/gallery1' do
 
-    erb :portfolio-1-col
+    erb :gallery1
 
 end
 
-get '/portfolio-2-col' do
+get '/sidebar' do
 
-    erb :portfolio-2-col
+    erb :sidebar
+
+end
+
+get '/fullwidth' do
+
+    erb :fullwidth
+
+end
+
+get '/gallery2' do
+
+    erb :gallery2
     
 end
 
-get '/portfolio-3-col' do
+get '/gallery3' do
 
-    erb :portfolio-3-col
+    erb :gallery3
     
 end
 
-get '/events' do
+get '/gallery4' do
 
-	erb :events
+    erb :gallery4
+
+end
+
+
+
+get '/services' do
+
+	erb :services
 
 end
 
